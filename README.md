@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Importante
+Para correr el proyecto es necesario tener una cuenta en spotify y conseguir el client_id y el client_secret para armar el body del post de `https://accounts.spotify.com/api/token` para poder conseguir
+el api token basicamente necesarias
+
+key           |        value
+grant_type         client_credentials
+client_id          `tu client id`
+client_secret      `tu client_secret`
